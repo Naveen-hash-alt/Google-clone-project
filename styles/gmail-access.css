@@ -1,0 +1,130 @@
+.top-side{
+  padding-top: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gmail{
+  font-family: arial, Roboto;
+  font-size: 15px;
+  width:fit-content;
+  margin-left: 1250px;
+  cursor: pointer;
+}
+.gmail a{
+  text-decoration: none;
+  color: black;
+}
+.gmail a:hover{
+  text-decoration: underline;
+}
+.gmail a:active{
+   text-decoration: underline;
+  color: gray;
+}
+.images{
+  font-family: roboto,arial;
+  font-size: 15px;
+  width: fit-content;
+}
+
+.images a{
+  text-decoration:none;
+  color: black;
+}
+.images a:hover{
+  text-decoration: underline; 
+}
+.images a:active{
+  text-decoration: underline;
+  color:gray;
+}
+.icon-1{
+  margin-top: -8px;
+  position: relative;
+}
+.icon-1 img{
+  width:30px;
+}
+.lab-popup{
+  display: none;
+  font-family: arial,roboto,sans-serif;
+  font-size: 12px;
+  padding: 4px 4px 4px 4px;
+  background-color: rgb(142, 130, 130);
+  color:white;
+  position: absolute;
+  left:0;
+  top:40px;
+  border-radius: 30px;
+  width:100px;
+  transition-duration: 0.3s;
+  text-align: center;
+}
+.icon-1:hover .lab-popup{
+  display: block;
+  left:-30px;
+}
+
+
+.icon-2{
+  margin-top: -4px;
+  position: relative;
+}
+.icon-2 img{
+  width:25px;
+}
+.app-popup{
+  display: none;
+  font-family: arial,roboto,sans-serif;
+  font-size: 12px;
+  padding:4px 4px 4px 4px;
+  background-color: rgb(142, 130, 130);
+  color:white;
+  position: absolute;
+  left:0;
+  top:40px;
+  border-radius: 30px;
+  width:100px;
+  transition-duration: 0.3s;
+  text-align: center;
+}
+.icon-2:hover .app-popup{
+  display: block;
+  left:-30px;
+}
+
+.icon-3{
+  margin-top: -8px;
+  position: relative;
+}
+.icon-3 img{
+  width:30px;
+}
+.about-me{
+  display: none;
+  font-family:arial,roboto,sans-serif ;
+  font-size: 13px;
+   padding-top: 6px;
+   padding-bottom:6px;
+   padding-left: 6px;
+   padding-right: 70px;
+   width:100px;
+  position: absolute;
+  background-color:rgb(142, 130, 130) ;
+  color: white;
+  left:-150px;
+  top:40px;
+  right:-4px;
+  border-radius: 4px;
+  transition-duration:0.3s ;
+}
+.details{
+  font-size: 11px;
+  padding-top: 3px;
+  color: whitesmoke;
+}
+.icon-3:hover .about-me{
+  display: block;
+}

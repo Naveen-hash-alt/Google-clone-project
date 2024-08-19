@@ -1,0 +1,146 @@
+.body-of-google{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 190px;
+  flex-direction: column;
+}
+.google-logo{  
+  width:250px;
+}
+.searchbar{
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+  margin-left:40px;
+  box-shadow: 2px 4px 5px rgba(0,0,0,0.05);
+  width:520px;
+  height:40px;
+  border-radius: 150px;
+  cursor: pointer;
+}
+.searchbox{
+  font-family: roboto,arial;
+  width:400px;
+  padding-left: 56px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  background-color: white;
+  color: rgb(157, 147, 147);
+  justify-content: start;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.searching{
+ margin-left:9px;
+ margin-top: -28px;
+ display: inline-block;
+}
+.search{
+ width:20px;
+ padding-left:6px;
+}
+
+.voice-popup{
+  position: relative;
+  display: inline-block;
+}
+.voice-icon{
+  width:20px;
+  margin-left: 400px;
+  margin-top: -10px;
+ 
+}
+.mic{
+  display: none;
+  font-family:arial,roboto,sans-serif ;
+  font-size: 12px;
+  padding:5px 5px 5px 5px;
+  background-color:rgb(142, 130, 130) ;
+  color: white;
+  position: absolute;
+  left:400px;
+  top:40px;
+  border-radius: 4px;
+  width:100px;
+  transition: 0.3s;
+  text-align:center ;
+}
+.voice-popup:hover .mic{
+  display: block;
+}
+
+.lens-popup{
+  display: inline-block;
+  position: relative;
+}
+.lens{
+  width:20px;
+  margin-left: 20px;
+ 
+}
+.search-popup{
+  display: none;
+  font-family:arial,roboto,sans-serif ;
+  font-size: 12px;
+  padding:5px 5px 5px 5px;
+  background-color: rgb(142, 130, 130);
+  color: white;
+  position: absolute;
+  left: 0;
+  top:40px;
+  border-radius: 4px;
+  width:100px;
+  transition: 0.3s;
+  text-align: center;
+}
+.lens-popup:hover .search-popup{
+  display: block;
+}
+
+.body-logo{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.box-card{
+  display: flex;
+  width:112px;
+  height:112px;
+  border-radius: 4px;
+  align-items: center;
+  transition: background-color 0.03s;
+  cursor: pointer;
+  flex-direction: column;
+  
+
+}
+.box-card:hover{
+  background-color:rgb(197, 187, 187) ;
+}
+.box-card:hover .three-dots{
+  
+  transition: 0.3s;
+}
+
+
+.logo-1{
+  align-items:center;
+  display:flex;
+  flex-direction: column;
+  
+}
+.aniwatch{
+  width:40px;
+  margin-top: 25px;
+
+}
+.anime{
+  font-family: arial,roboto;
+  font-size: 14px;
+  margin-top: 5px;
+  
+}
