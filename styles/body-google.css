@@ -59,7 +59,7 @@
   background-color:rgb(142, 130, 130) ;
   color: white;
   position: absolute;
-  left:400px;
+  left:-28px;
   top:40px;
   border-radius: 4px;
   width:100px;
@@ -87,7 +87,7 @@
   background-color: rgb(142, 130, 130);
   color: white;
   position: absolute;
-  left: 0;
+  left: -18px;
   top:40px;
   border-radius: 4px;
   width:100px;
