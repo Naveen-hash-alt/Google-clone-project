@@ -77,8 +77,13 @@
 }
 .lens{
   width:20px;
+<<<<<<< Updated upstream
   margin-left: 20px;
  
+=======
+  
+  margin-right: 19px;
+>>>>>>> Stashed changes
 }
 .search-popup{
   display: none;
