@@ -44,18 +44,18 @@
 
       document.querySelector('.js-rock-button')
       .addEventListener('click', () => {
-        playgame(`Rock`);
+        playgame(`rock`);
       });
 
       document.querySelector('.js-paper-button')
       .addEventListener('click', () => {
-        playgame(`Paper`);
+        playgame(`paper`);
       });
 
       
       document.querySelector('.js-scissors-button')
       .addEventListener('click', () => {
-        playgame(`Paper`);
+        playgame(`scissors`);
       });
 
       document.querySelector('.js-auto-play-button').addEventListener('click', () => {
@@ -70,11 +70,11 @@
 
       document.body.addEventListener('keydown', (event) => {
         if (event.key === 'r') {
-          playgame('Rock');
+          playgame('rock');
         }else if (event.key === 'p') {
-          playgame('Paper');
+          playgame('paper');
         } else if (event.key === 's') {
-          playgame('Scissors');
+          playgame('scissors');
         }else if (event.key === 'a') {
           autoPlay();
         }else if(event.key === 'Backspace') {
@@ -120,38 +120,40 @@
       const computermove= pickcomputermove();
       console.log(computermove);
 
+      
+
       let result='';
 
       if (playermove === `scissors`) {
-      if(computermove === `Rock`) {
+      if(computermove === `rock`) {
       result=`You lose.`;
-      }else if(computermove === `Paper`){
+      }else if(computermove === `paper`){
       result=`You win.`;
-      }else if(computermove === `Scissors`){
+      }else if(computermove === `scissors`){
       result=`Tie.`;
       }
       } 
 
-      else if(playermove === `Paper`) {
+      else if(playermove === `paper`) {
 
-      if(computermove === `Rock`) {
+      if(computermove === `rock`) {
       result=`You win.`;
-      }else if(computermove === `Paper`){
+      }else if(computermove === `paper`){
       result=`Tie.`;
-      }else if(computermove === `Scissors`){
+      }else if(computermove === `scissors`){
       result=`You lose.`;
       }
 
 
       }  
 
-      else if(playermove === `Rock`){
+      else if(playermove === `rock`){
 
-      if(computermove === `Rock`) {
+      if(computermove === `rock`) {
           result=`Tie.`;
-      }else if(computermove === `Paper`){
+      }else if(computermove === `paper`){
         result=`You lose.`;
-      }else if(computermove === `Scissors`){
+      }else if(computermove === `scissors`){
         result=`You win.`;
       }
 
@@ -199,11 +201,11 @@
 
 
       if(randomnumber >=0 && randomnumber < 1/3){
-      computermove= `Rock` ;
+      computermove= `rock` ;
       }else if(randomnumber >=1/3 && randomnumber <2/3) {
-      computermove= `Paper` ;
+      computermove= `paper` ;
       }else if(randomnumber >=2/3 && randomnumber <1) {
-      computermove= `Scissors` ;
+      computermove= `scissors` ;
       }
 
       return computermove;
