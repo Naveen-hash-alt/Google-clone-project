@@ -1,7 +1,7 @@
       let score = JSON.parse(localStorage.getItem('score')) || {
         wins:0,
         losses:0,
-        Ties:0
+        ties:0
       } ;
 
       
@@ -86,7 +86,7 @@
       function restoreScore() {
         score.wins =0;
         score.losses =0 ;
-        score.Ties =0;
+        score.ties =0;
         localStorage.removeItem('score');
         updatescoreElement();
       }
@@ -187,7 +187,7 @@
       }
 
       function updatescoreElement () {
-      document.querySelector('.js-score').innerHTML = `wins: ${score.wins}, losses: ${score.losses}, Ties: ${score.Ties}`;
+      document.querySelector('.js-score').innerHTML = `wins: ${score.wins}, losses: ${score.losses}, Ties: ${score.ties}`;
 
       }
 
